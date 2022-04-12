@@ -8,7 +8,6 @@ Original file is located at
 """
 
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from pathlib import Path  
 import pandas as Pd
 
 df= Pd.read_csv("training_data.csv")
